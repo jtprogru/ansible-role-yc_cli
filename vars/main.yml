@@ -1,5 +1,3 @@
 ---
-# vars file for sample-role
-samplerole_sample_var:
-  - "one"
-  - "two"
+yc_cli_storage_url: "https://storage.yandexcloud.net/yandexcloud-yc"
+yc_cli_url: "{{ yc_cli_storage_url }}/release/{{ yc_cli_version }}/linux/amd64/yc"
