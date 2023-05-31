@@ -21,6 +21,6 @@
       failed_when: systemctl_status.rc > 1
 
   tasks:
-    - name: "Include sample_role"
+    - name: "Include yc_cli"
       include_role:
-        name: "sample_role"
+        name: "yc_cli"
