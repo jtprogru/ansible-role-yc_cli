@@ -1,18 +1,3 @@
 ---
-# defaults file for sample-role
-samplerole_var1: foo
-samplerole_var2: 2
-samplerole_var3:
-  - "one"
-  - "two"
-  - "three"
-
-samplerole_var4:
-  id: 0
-  name: "start"
-  inner_obj:
-    - id: 1
-      name: obj1
-    - id: 2
-      name: obj2
-
+yc_cli_version: "0.106.0"
+yc_cli_install_path: "/usr/local/bin/yc"
