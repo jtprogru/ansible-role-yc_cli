@@ -1,13 +1,13 @@
-# jtprogru.sample_role
+# jtprogru.yc_cli
 
-[![Ansible Molecule](https://github.com/jtprogru/sample-role/actions/workflows/molecule.yml/badge.svg)](https://github.com/jtprogru/sample-role/actions/workflows/molecule.yml)
-[![Release to Ansible Galaxy](https://github.com/jtprogru/sample-role/actions/workflows/galaxy.yml/badge.svg)](https://github.com/jtprogru/sample-role/actions/workflows/galaxy.yml)
-[![TODO 2 Issue](https://github.com/jtprogru/sample-role/actions/workflows/todo.yml/badge.svg)](https://github.com/jtprogru/sample-role/actions/workflows/todo.yml)
-![GitHub](https://img.shields.io/github/license/jtprogru/sample-role)
-[![Ansible Role](https://img.shields.io/ansible/role/54362)](https://galaxy.ansible.com/jtprogru/sample-role/)
-[![GitHub tag](https://img.shields.io/github/tag/jtprogru/sample-role.svg)](https://github.com/jtprogru/sample-role/tags)
+[![Ansible Molecule](https://github.com/jtprogru/yc_cli/actions/workflows/molecule.yml/badge.svg)](https://github.com/jtprogru/yc_cli/actions/workflows/molecule.yml)
+[![Release to Ansible Galaxy](https://github.com/jtprogru/yc_cli/actions/workflows/galaxy.yml/badge.svg)](https://github.com/jtprogru/yc_cli/actions/workflows/galaxy.yml)
+[![TODO 2 Issue](https://github.com/jtprogru/yc_cli/actions/workflows/todo.yml/badge.svg)](https://github.com/jtprogru/yc_cli/actions/workflows/todo.yml)
+![GitHub](https://img.shields.io/github/license/jtprogru/yc_cli)
+[![Ansible Role](https://img.shields.io/ansible/role/54362)](https://galaxy.ansible.com/jtprogru/yc_cli/)
+[![GitHub tag](https://img.shields.io/github/tag/jtprogru/yc_cli.svg)](https://github.com/jtprogru/yc_cli/tags)
 
-This is sample ansible role used me as boilerplate.
+This is simple ansible role for installation Yandex Cloud CLI.
 
 
 ## Role Variables
@@ -29,7 +29,7 @@ Example playbook:
     foo: bar
 
   roles:
-    - jtprogru.sample_role
+    - jtprogru.yc_cli
 ```
 
 ## Authors
