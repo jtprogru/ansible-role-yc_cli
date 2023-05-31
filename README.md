@@ -1,6 +1,5 @@
 # jtprogru.yc_cli
 
-[![Ansible Molecule](https://github.com/jtprogru/yc_cli/actions/workflows/molecule.yml/badge.svg)](https://github.com/jtprogru/yc_cli/actions/workflows/molecule.yml)
 [![Release to Ansible Galaxy](https://github.com/jtprogru/yc_cli/actions/workflows/galaxy.yml/badge.svg)](https://github.com/jtprogru/yc_cli/actions/workflows/galaxy.yml)
 [![TODO 2 Issue](https://github.com/jtprogru/yc_cli/actions/workflows/todo.yml/badge.svg)](https://github.com/jtprogru/yc_cli/actions/workflows/todo.yml)
 ![GitHub](https://img.shields.io/github/license/jtprogru/yc_cli)
