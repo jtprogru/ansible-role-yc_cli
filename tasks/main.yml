@@ -1,4 +1,6 @@
 ---
-# tasks file for sample-role
-- name: sample_role | sample ping
-  ping:
+- name: "YC CLI | Download YC version {{  yc_cli_version }}"
+  ansible.builtin.get_url:
+    url: "{{ yc_cli_url }}"
+    dest: "{{ yc_cli_install_path }}"
+    mode: "0755"
